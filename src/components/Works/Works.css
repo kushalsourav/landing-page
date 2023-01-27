@@ -1,0 +1,55 @@
+.work-header {
+    font-size: 2.6rem;
+}
+.work-card {
+    width: 20rem;
+    height: auto;
+    margin: 3rem 0;
+    position: relative;
+}
+.card-title {
+    margin: 3rem 0 2rem 0;
+    font-size: 1.5rem;
+}
+.card-icon {
+    padding: 1.8rem;
+    border-radius: 40%;
+    border: 2px solid #184fc7;
+    font-size: 1.4rem;
+    color: #184fc7;
+}
+.card-badge {
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: 22%;
+    font-size: 14px;
+    line-height: 10px;
+    color: #fff;
+    background-color: blue;
+}
+@media (max-width:480px) {
+    .work-header {
+        font-size: 1.6rem;
+    }
+    .work-card {
+        width: 12rem;
+    }
+    .card-title {
+        margin: 2rem 0 14px 0;
+        font-size: 1rem;
+    }
+    .card-description {
+        font-size: 14px;
+    }
+    .card-icon {
+        padding: 12px;
+    }
+    .card-badge {
+        top: -8%;
+        left: 20%;
+        font-size: 12px;
+        line-height: 8px;
+    }
+}
